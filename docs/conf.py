@@ -52,8 +52,8 @@ author = 'NGN'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 #...
-
-extensions = [ "breathe",'sphinx.ext.autodoc','sphinx.ext.coverage','sphinx.ext.napoleon','recommonmark' ]
+# To parse markdown, recommonmark can be used. myst_parser have more additions
+extensions = ['breathe','sphinx.ext.autodoc','sphinx.ext.coverage','sphinx.ext.napoleon','myst_parser' ]
 
 #...
 
