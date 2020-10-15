@@ -12,6 +12,7 @@ Welcome to CatCutifier's documentation!
 
 
    docpages/additional.rst
+   docpages/additional2.md
 
 Docs
 ====
