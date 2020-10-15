@@ -1,0 +1,6 @@
+additional
+==========
+
+.. automodule:: horse
+   :members:
+

@@ -10,10 +10,17 @@ Welcome to CatCutifier's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-:ref:`genindex`
+
+   docpages/additional.rst
 
 Docs
 ====
 
 .. doxygenstruct:: cat
    :members:
+
+.. automodule:: dog
+   :members:
+
+
+:ref:`genindex`

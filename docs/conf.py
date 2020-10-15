@@ -10,9 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, '/home/ngutierr/cppdocs2/src/pysrc/')
 
 import subprocess, os
 
@@ -41,9 +41,9 @@ if read_the_docs_build:
 
 # -- Project information -----------------------------------------------------
 
-project = 'CatCutifier'
-copyright = '2019, Simon Brand'
-author = 'Simon Brand'
+project = 'Animals'
+copyright = '2012, NGN'
+author = 'NGN'
 
 
 # -- General configuration ---------------------------------------------------
@@ -53,12 +53,14 @@ author = 'Simon Brand'
 # ones.
 #...
 
-extensions = [ "breathe" ]
+extensions = [ "breathe",'sphinx.ext.autodoc','sphinx.ext.coverage','sphinx.ext.napoleon','recommonmark' ]
 
 #...
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+source_suffix = ['.rst','.md']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -79,4 +81,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # Breathe Configuration
-breathe_default_project = "CatCutifier"
+breathe_default_project = "Animals"
+
+napoleon_include_special_with_doc = True
+napoleon_include_private_with_doc = True

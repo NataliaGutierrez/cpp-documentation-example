@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ngutierr/cppdocs2/src/cppsrc/cats.cpp
+cats.h
+/home/ngutierr/cppdocs2/src/cppsrc/cats.h
+
+/home/ngutierr/cppdocs2/src/cppsrc/cats.h
+
